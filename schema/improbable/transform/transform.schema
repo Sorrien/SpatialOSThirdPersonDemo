@@ -1,0 +1,17 @@
+package improbable.transform;
+import "improbable/vector3.schema";
+
+type Rotation
+{
+    float pitch = 1;
+    float yaw = 2;
+    float roll = 3;
+}
+
+component Transform
+{
+    id = 30001;
+    improbable.Vector3f location = 1;
+    Rotation rotation = 2;
+    improbable.Vector3f velocity = 3;
+}

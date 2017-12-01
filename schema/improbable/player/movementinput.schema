@@ -1,0 +1,16 @@
+package improbable.player;
+import "improbable/vector3.schema";
+
+component MovementInputReceiver {
+    id = 30002;
+    command MoveInput send_move_input(MoveInput);
+}
+
+component MovementInputSender {
+    id = 30003;
+}
+
+type MoveInput {
+    float value = 1;
+    improbable.Vector3f direction = 2;
+}
