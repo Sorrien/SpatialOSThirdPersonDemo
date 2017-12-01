@@ -1,18 +1,8 @@
-# RPG demo (SpatialOS)
+# Third Person demo (SpatialOS)
 
-![RPG demo Logo](rpg-demo-logo.jpg)
-
-*****
-
-Copyright Improbable 2017
 
 * Link to docs: [SpatialOS Unreal Engine 4 integration documentation](https://spatialos.improbable.io/docs/reference/latest/workers/unreal/introduction)
 
-*****
-
-### Deprecation notice
-
-As from the release of SpatialOS 12.0.0, we're no longer maintaining the RPG demo. Alternative starter projects and demos can be found [here](https://spatialos.improbable.io/docs/reference/latest/).
 
 ### Introduction
 
